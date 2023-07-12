@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <RelativeLayout
+        android:id="@+id/ahihi"
+        android:layout_above="@+id/rll_bottom_get_star"
+        android:background="@drawable/image_background_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_title"
+            android:text="food order"
+            android:textColor="#3347B5"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp35"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/img_logo"
+            android:src="@drawable/image_logo"
+            android:padding="@dimen/dp50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_intro"
+            android:text="food order intro detail"
+            android:textColor="#3347B5"
+            android:textSize="@dimen/sp25"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rll_bottom_get_star"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp100">
+        <TextView
+            android:id="@+id/txt_get_star"
+            android:text="get stared"
+            android:gravity="center"
+            android:textSize="@dimen/sp25"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_radius"
+            android:paddingHorizontal="@dimen/dp100"
+            android:paddingVertical="@dimen/dp10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>

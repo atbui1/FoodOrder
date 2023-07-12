@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FoodOrder</string>
+    <string name="offers_and_savings">Ưu đãi và tiết kiệm</string>
+    <string name="my_account">Tài khoản của tôi</string>
+    <string name="opportunity">Cơ hội</string>
+
+    <string name="str_chats">Tin nhắn</string>
+    <string name="str_notify">Thông báo</string>
+
+
+    <string name="str_payment">Thanh toán</string>
+    <string name="str_pay_intro">Kích hoạt ví điện tử và quên đi nỗi sợ tiền mặt</string>
+    <string name="str_pay_active">Kích hoạt ngay</string>
+
+
+
+    <string name="str_credit_add">Thêm thẻ</string>
+    <string name="str_credit_intro">Thanh toán dễ dàng, vô vàng quà khủng</string>
+
+    <string name="str_credit_option_debit">Nạp tiền</string>
+    <string name="str_credit_option_payment">Thanh toán</string>
+    <string name="str_credit_option_pay">gửi</string>
+    <string name="str_credit_option_withdraw">Rút tiền</string>
+
+
+    <string name="str_suggest_for_you">Đề xuất cho bạn</string>
+
+
+</resources>

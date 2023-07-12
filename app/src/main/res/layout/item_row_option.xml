@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/dp3"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="@dimen/dp10"
+    android:paddingHorizontal="@dimen/dp10"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_credit_option"
+        android:src="@drawable/icon_wallet"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"/>
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_below="@id/img_credit_option"
+        android:text="label title"
+        android:textColor="@color/black"
+        android:padding="@dimen/dp5"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

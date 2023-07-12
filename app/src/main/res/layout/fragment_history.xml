@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="history fragment"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcl_home"
+        android:background="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
